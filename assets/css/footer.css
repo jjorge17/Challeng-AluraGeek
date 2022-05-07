@@ -1,0 +1,66 @@
+.pieDePagina__Contenido {
+    background: #EAF2FD;
+    display: flex;
+    justify-content: space-around;
+    padding: 64px;
+}
+
+.pieDePagina-navMap {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.pieDePagina-navMap-link {
+    color: #464646;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.pieDePagina__contacto-descripcion {
+    color: #464646;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 19px;
+}
+
+.pieDePagina__contacto--input-padron {
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 1rem 0;
+}
+
+.pieDePagina__contacto--input-padron label {
+    color: #A2A2A2;
+    font-size: 12px;
+    line-height: 16px;
+    margin: 4px 0px;
+}
+
+#nombre,
+#mensaje {
+    border: none;
+}
+
+.contacto__formulario--enviar, .banner__boton {
+    background: #2A7AE4;
+    border: none;
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+
+}
+
+
+.pieDePagina {
+    text-align: center;
+    color: #464646;
+    font-size: 16px;
+    margin: 24px 0;
+}

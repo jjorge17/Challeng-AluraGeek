@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AluraGeek | Agregar producto</title>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/contenido.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="encabezado">
+        <div class="encabezado__container">
+            <div class="encabezado__contenedor">
+                <img class="encabezado__logo" src="assets/imagenes/Logo.png" alt="AluraGeek">
+                <div class="encabezado__busqueda">
+                    <input class="encabezado__busqueda--texto" type="text" placeholder="Qué desea buscar?"
+                        name="busqueda" id="busqueda">
+                    <button class="encabezado__busqueda--icono" type="submit">🔍</button>
+                </div>
+            </div>
+            <button class="encabezado__login" type="submit">Login</button>
+        </div>
+    </header>
+    <main>
+
+    </main>
+    <footer class="pieDePagina">
+        <div>
+            <div class="pieDePagina__Contenido">
+                <div class="pieDePagina__logo">
+                    <img src="./assets/imagenes/Logo.png">
+                </div>
+                <div class="pieDePagina-navMap">
+                    <a class="pieDePagina-navMap-link" href="#">Quienes somos</a>
+                    <a class="pieDePagina-navMap-link" href="#">Politica de privacidad</a>
+                    <a class="pieDePagina-navMap-link" href="#">Programa de fidelidad</a>
+                    <a class="pieDePagina-navMap-link" href="#">Nuestras Tiendas</a>
+                    <a class="pieDePagina-navMap-link" href="#">Quiero ser franquiciado</a>
+                    <a class="pieDePagina-navMap-link" href="#">Anuncie aquí</a>
+                </div>
+                <div class="pieDePagina__contacto">
+                    <form>
+                        <div class="pieDePagina__contacto-descripcion">
+                            Hable con nosotros
+                        </div>
+                        <div class="pieDePagina__contacto--input-padron">
+                            <label for="nombre">Nombre</label>
+                            <input type="text" id="nombre" required>
+                        </div>
+                        <div class="pieDePagina__contacto--input-padron">
+                            <label for="mensaje">Mensaje</label>
+                            <textarea cols="50" rows="5" id="mensaje" required></textarea>
+                        </div>
+                        <input type="submit" value="Enviar mensaje" class="contacto__formulario--enviar">
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="pieDePagina">
+            Desarrollado por Jorge Alberto Jurado <br> &copy 2022
+        </div>
+    </footer>
+    <script src="./assets/js/fontawesome.all.min.js"></script>
+</body>
+</html>

@@ -5,208 +5,255 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>AluraGeek</title>
-    <link rel="stylesheet" href="assets/css/reset.css">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/encabezado.css">
+    <link rel="stylesheet" href="./assets/css/categoria.css">
+    <link rel="stylesheet" href="./assets/css/footer.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
 
 </head>
 
-<body>
-    <header class="headerPrincipal">
-        <div class="container">
-            <div class="headerPrincipal__contenedor">
-                <img class="headerrPrincipal__logo" src="assets/imagenes/Logo.png" alt="AluraGeek">
-                <div class="headerPrincipal__busqueda">
-                    <input class="headerPrincipal__busqueda--texto" type="text" placeholder="Qué desea buscar?"
+
+<body class="cuerpo">
+    <header class="encabezado">
+        <div class="encabezado__container">
+            <div class="encabezado__contenedor">
+                <img class="encabezado__logo" src="assets/imagenes/Logo.png" alt="AluraGeek">
+                <div class="encabezado__busqueda">
+                    <input class="encabezado__busqueda--texto" type="text" placeholder="Qué desea buscar?"
                         name="busqueda" id="busqueda">
-                    <button class="headerPrincipal__busqueda--icono" type="submit">🔍</button>
+                    <button class="encabezado__busqueda--icono" type="submit">🔍</button>
                 </div>
             </div>
-            <button class="headerPrincipal__login" type="submit">Login</button>
+            <button class="encabezado__login" type="submit" onclick="location.href='login.html'">Login</button>
         </div>
         <section class="banner">
             <div class="banner__imagen"></div>
             <div class="banner__texto">
-                <h2 class="banner__titulo">Febrero promocional</h2>
+                <h2 class="banner__titulo">Abril promocional</h2>
                 <p>Productos seleccionados con 33% de descuento</p>
                 <button class="banner__boton" type="submit">Ver consolas</button>
             </div>
         </section>
     </header>
-    <main>
-        
-        <section class="lineaproducto">
-            <div class="lineaproducto__titular">
-                <h2 class="lineaproducto__titulo">Star Wars </h2>
-                <button class="lineaproducto__boton" type="submit">Ver todo -></button>
+    <main class="contenido">
+        <section class="categoria__item">
+            <div class="categoria__titular">
+                <h2 class="categoria__titulo">Star Wars </h2>
+                <button class="categoria__boton">
+                    Ver todo
+                    <i class="fas fa-arrow-right"></i>
+                </button>
+
             </div>
-            <div class="productos">
-                <div class="producto">
+            <div class="categoria__productos">
+                <div class="categoria__producto">
                     <img class="producto__imagen" src="./assets/imagenes/productos/producto1.png" />
                     <div class="producto__contenido">
-                        <h4 class="producto__titulo">Producto XYZ</h4>
-                        <p class="producto__precio">$ 60.00</p>
+                        <div class="producto__descripcion">
+                            <h4 class="producto__titulo">Producto XYZ</h4>
+                            <p class="producto__precio">$ 60.00</p>
+                        </div>
                         <button class="producto__boton">Ver Producto</button>
+
                     </div>
                 </div>
-                <div class="producto">
+                <div class="categoria__producto">
                     <img class="producto__imagen" src="./assets/imagenes/productos/producto2.png" />
                     <div class="producto__contenido">
-                        <h4 class="producto__titulo">Producto XYZ</h4>
-                        <p class="producto__precio">$ 60.00</p>
+                        <div class="producto__descripcion">
+                            <h4 class="producto__titulo">Producto XYZ</h4>
+                            <p class="producto__precio">$ 60.00</p>
+                        </div>
                         <button class="producto__boton">Ver Producto</button>
                     </div>
                 </div>
-                <div class="producto">
+                <div class="categoria__producto">
                     <img class="producto__imagen" src="./assets/imagenes/productos/producto3.png" />
                     <div class="producto__contenido">
-                        <h4 class="producto__titulo">Producto XYZ</h4>
-                        <p class="producto__precio">$ 60.00</p>
+                        <div class="producto__descripcion">
+                            <h4 class="producto__titulo">Producto XYZ</h4>
+                            <p class="producto__precio">$ 60.00</p>
+                        </div>
                         <button class="producto__boton">Ver Producto</button>
                     </div>
                 </div>
-                <div class="producto">
+                <div class="categoria__producto">
                     <img class="producto__imagen" src="./assets/imagenes/productos/producto4.png" />
                     <div class="producto__contenido">
-                        <h4 class="producto__titulo">Producto XYZ</h4>
-                        <p class="producto__precio">$ 60.00</p>
+                        <div class="producto__descripcion">
+                            <h4 class="producto__titulo">Producto XYZ</h4>
+                            <p class="producto__precio">$ 60.00</p>
+                        </div>
                         <button class="producto__boton">Ver Producto</button>
                     </div>
                 </div>
-                <div class="producto">
+                <div class="categoria__producto">
                     <img class="producto__imagen" src="./assets/imagenes/productos/producto5.png" />
                     <div class="producto__contenido">
-                        <h4 class="producto__titulo">Producto XYZ</h4>
-                        <p class="producto__precio">$ 60.00</p>
+                        <div class="producto__descripcion">
+                            <h4 class="producto__titulo">Producto XYZ</h4>
+                            <p class="producto__precio">$ 60.00</p>
+                        </div>
                         <button class="producto__boton">Ver Producto</button>
                     </div>
                 </div>
-                <div class="producto">
+                <div class="categoria__producto">
                     <img class="producto__imagen" src="./assets/imagenes/productos/producto6.png" />
                     <div class="producto__contenido">
-                        <h4 class="producto__titulo">Producto XYZ</h4>
-                        <p class="producto__precio">$ 60.00</p>
+                        <div class="producto__descripcion">
+                            <h4 class="producto__titulo">Producto XYZ</h4>
+                            <p class="producto__precio">$ 60.00</p>
+                        </div>
                         <button class="producto__boton">Ver Producto</button>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="lineaproducto">
-            <div class="lineaproducto__titular">
-                <h2 class="lineaproducto__titulo">Consolas</h2>
-                <button class="lineaproducto__boton" type="submit">Ver todo -></button>
+        <section class="categoria__item">
+            <div class="categoria__titular">
+                <h2 class="categoria__titulo">Consolas</h2>
+                <button class="categoria__boton" type="submit">
+                    Ver todo
+                    <i class="fas fa-arrow-right"></i>
+                </button>
             </div>
-            <div class="productos">
-                <div class="producto">
-                    <img class="producto__imagen" src="./assets/imagenes/productos/consola1.png" />
+            <div class="categoria__productos">
+                <div class="categoria__producto">
+                    <img class="producto__imagen" src="./assets/imagenes/consola/consola1.png" />
                     <div class="producto__contenido">
-                        <h4 class="producto__titulo">Consola XYZ</h4>
-                        <p class="producto__precio">$ 60.00</p>
+                        <div class="producto__descripcion">
+                            <h4 class="producto__titulo">Consola XYZ</h4>
+                            <p class="producto__precio">$ 60.00</p>
+                        </div>
                         <button class="producto__boton">Ver Producto</button>
                     </div>
                 </div>
-                <div class="producto">
-                    <img class="producto__imagen" src="./assets/imagenes/productos/consola2.png" />
+                <div class="categoria__producto">
+                    <img class="producto__imagen" src="./assets/imagenes/consola/consola2.png" />
                     <div class="producto__contenido">
-                        <h4 class="producto__titulo">Consola XYZ</h4>
-                        <p class="producto__precio">$ 60.00</p>
+                        <div class="producto__descripcion">
+                            <h4 class="producto__titulo">Consola XYZ</h4>
+                            <p class="producto__precio">$ 60.00</p>
+                        </div>
                         <button class="producto__boton">Ver Producto</button>
                     </div>
                 </div>
-                <div class="producto">
-                    <img class="producto__imagen" src="./assets/imagenes/productos/consola3.png" />
+                <div class="categoria__producto">
+                    <img class="producto__imagen" src="./assets/imagenes/consola/consola3.png" />
                     <div class="producto__contenido">
-                        <h4 class="producto__titulo">Consola XYZ</h4>
-                        <p class="producto__precio">$ 60.00</p>
+                        <div class="producto__descripcion">
+                            <h4 class="producto__titulo">Consola XYZ</h4>
+                            <p class="producto__precio">$ 60.00</p>
+                        </div>
                         <button class="producto__boton">Ver Producto</button>
                     </div>
                 </div>
-                <div class="producto">
-                    <img class="producto__imagen" src="./assets/imagenes/productos/consola4.png" />
+                <div class="categoria__producto">
+                    <img class="producto__imagen" src="./assets/imagenes/consola/consola4.png" />
                     <div class="producto__contenido">
-                        <h4 class="producto__titulo">Consola XYZ</h4>
-                        <p class="producto__precio">$ 60.00</p>
+                        <div class="producto__descripcion">
+                            <h4 class="producto__titulo">Consola XYZ</h4>
+                            <p class="producto__precio">$ 60.00</p>
+                        </div>
                         <button class="producto__boton">Ver Producto</button>
                     </div>
                 </div>
-                <div class="producto">
-                    <img class="producto__imagen" src="./assets/imagenes/productos/consola5.png" />
+                <div class="categoria__producto">
+                    <img class="producto__imagen" src="./assets/imagenes/consola/consola5.png">
                     <div class="producto__contenido">
-                        <h4 class="producto__titulo">Consola XYZ</h4>
-                        <p class="producto__precio">$ 60.00</p>
+                        <div class="producto__descripcion">
+                            <h4 class="producto__titulo">Consola XYZ</h4>
+                            <p class="producto__precio">$ 60.00</p>
+                        </div>
                         <button class="producto__boton">Ver Producto</button>
                     </div>
                 </div>
-                <div class="producto">
-                    <img class="producto__imagen" src="./assets/imagenes/productos/consola6.png" />
+                <div class="categoria__producto">
+                    <img class="producto__imagen" src="./assets/imagenes/consola/consola6.png" />
                     <div class="producto__contenido">
-                        <h4 class="producto__titulo">Consola XYZ</h4>
-                        <p class="producto__precio">$ 60.00</p>
+                        <div class="producto__descripcion">
+                            <h4 class="producto__titulo">Consola XYZ</h4>
+                            <p class="producto__precio">$ 60.00</p>
+                        </div>
                         <button class="producto__boton">Ver Producto</button>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="lineaproducto">
-            <div class="lineaproducto__titular">
-                <h2 class="lineaproducto__titulo">Diversos</h2>
-                <button class="lineaproducto__boton" type="submit">Ver todo -></button>
+        <section class="categoria__item">
+            <div class="categoria__titular">
+                <h2 class="categoria__titulo">Diversos</h2>
+                <button class="categoria__boton" type="submit">Ver todo <i class="fas fa-arrow-right"></i></button>
             </div>
-            <div class="productos">
-                <div class="producto">
-                    <img class="producto__imagen" src="./assets/imagenes/productos/diversos1.png" />
+            <div class="categoria__productos">
+                <div class="categoria__producto">
+                    <img class="producto__imagen" src="./assets/imagenes/diversos/diversos1.png" />
                     <div class="producto__contenido">
-                        <h4 class="producto__titulo">Control y consola XYZ</h4>
-                        <p class="producto__precio">$ 60.00</p>
+                        <div class="producto__descripcion">
+                            <h4 class="producto__titulo">Control y consola XYZ</h4>
+                            <p class="producto__precio">$ 60.00</p>
+                        </div>
                         <button class="producto__boton">Ver Producto</button>
                     </div>
                 </div>
-                <div class="producto">
-                    <img class="producto__imagen" src="./assets/imagenes/productos/diversos2.png" />
+                <div class="categoria__producto">
+                    <img class="producto__imagen" src="./assets/imagenes/diversos/diversos2.png" />
                     <div class="producto__contenido">
-                        <h4 class="producto__titulo">Control y consola XYZ</h4>
-                        <p class="producto__precio">$ 60.00</p>
+                        <div class="producto__descripcion">
+                            <h4 class="producto__titulo">Control y consola XYZ</h4>
+                            <p class="producto__precio">$ 60.00</p>
+                        </div>
                         <button class="producto__boton">Ver Producto</button>
                     </div>
                 </div>
-                <div class="producto">
-                    <img class="producto__imagen" src="./assets/imagenes/productos/diversos3.png" />
+                <div class="categoria__producto">
+                    <img class="producto__imagen" src="./assets/imagenes/diversos/diversos3.png" />
                     <div class="producto__contenido">
-                        <h4 class="producto__titulo">Control y consola XYZ</h4>
-                        <p class="producto__precio">$ 60.00</p>
+                        <div class="producto__descripcion">
+                            <h4 class="producto__titulo">Control y consola XYZ</h4>
+                            <p class="producto__precio">$ 60.00</p>
+                        </div>
                         <button class="producto__boton">Ver Producto</button>
                     </div>
                 </div>
-                <div class="producto">
-                    <img class="producto__imagen" src="./assets/imagenes/productos/diversos4.png" />
+                <div class="categoria__producto">
+                    <img class="producto__imagen" src="./assets/imagenes/diversos/diversos4.png" />
                     <div class="producto__contenido">
-                        <h4 class="producto__titulo">Control y consola XYZ</h4>
-                        <p class="producto__precio">$ 60.00</p>
+                        <div class="producto__descripcion">
+                            <h4 class="producto__titulo">Control y consola XYZ</h4>
+                            <p class="producto__precio">$ 60.00</p>
+                        </div>
                         <button class="producto__boton">Ver Producto</button>
                     </div>
                 </div>
-                <div class="producto">
-                    <img class="producto__imagen" src="./assets/imagenes/productos/diversos5.png" />
+                <div class="categoria__producto">
+                    <img class="producto__imagen" src="./assets/imagenes/diversos/diversos5.png" />
                     <div class="producto__contenido">
-                        <h4 class="producto__titulo">Control y consola XYZ</h4>
-                        <p class="producto__precio">$ 60.00</p>
+                        <div class="producto__descripcion">
+                            <h4 class="producto__titulo">Control y consola XYZ</h4>
+                            <p class="producto__precio">$ 60.00</p>
+                        </div>
                         <button class="producto__boton">Ver Producto</button>
                     </div>
                 </div>
-                <div class="producto">
-                    <img class="producto__imagen" src="./assets/imagenes/productos/diversos6.png" />
+                <div class="categoria__producto">
+                    <img class="producto__imagen" src="./assets/imagenes/diversos/diversos6.png" />
                     <div class="producto__contenido">
-                        <h4 class="producto__titulo">Control y consola XYZ</h4>
-                        <p class="producto__precio">$ 60.00</p>
+                        <div class="producto__descripcion">
+                            <h4 class="producto__titulo">Control y consola XYZ</h4>
+                            <p class="producto__precio">$ 60.00</p>
+                        </div>
                         <button class="producto__boton">Ver Producto</button>
                     </div>
                 </div>
             </div>
         </section>
     </main>
-    <footer>
+    <footer class="pieDePagina">
         <div>
             <div class="pieDePagina__Contenido">
                 <div class="pieDePagina__logo">
@@ -242,6 +289,7 @@
             Desarrollado por Jorge Alberto Jurado <br> &copy 2022
         </div>
     </footer>
+    <script src="./assets/js/fontawesome.all.min.js"></script>
 </body>
 
 </html>
